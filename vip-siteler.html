@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BSOFT VIP Siteler</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #d0eafc, #ffffff);
+      display: flex;
+    }
+    .sidebar {
+      width: 240px;
+      background: linear-gradient(to bottom, #0d1117, #1a1f27);
+      color: white;
+      height: 100vh;
+      padding: 20px;
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid #2c2f36;
+    }
+    .sidebar h2 {
+      font-size: 22px;
+      margin-bottom: 20px;
+    }
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 10px 0;
+      padding: 8px 10px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .sidebar a:hover {
+      background-color: #00c3ff;
+      color: #0d1117;
+    }
+    .content {
+      margin-left: 260px;
+      padding: 30px;
+      width: 100%;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .vip-section {
+      background-color: white;
+      padding: 30px;
+      border-radius: 16px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .vip-section h2 {
+      color: #1a1f27;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .vip-sites {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .vip-card {
+      background-color: #f1f3f5;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      animation: floatCard 3s ease-in-out infinite;
+      box-shadow: 0 0 0 rgba(0,0,0,0);
+      transition: all 0.3s ease;
+    }
+    .vip-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    }
+    .vip-card::after {
+      content: '';
+      position: absolute;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(0,195,255,0.15) 0%, transparent 70%);
+      top: -50%;
+      left: -50%;
+      transform: rotate(25deg);
+      z-index: 0;
+    }
+    .vip-card img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-bottom: 10px;
+      z-index: 1;
+      position: relative;
+    }
+    .vip-card h3, .vip-card p {
+      z-index: 1;
+      position: relative;
+    }
+    .social-links {
+      margin-top: 20px;
+    }
+    .social-links a {
+      color: white;
+      margin-right: 15px;
+      font-size: 24px;
+      transition: color 0.3s, transform 0.3s;
+    }
+    .social-links a:hover {
+      color: #00c3ff;
+      transform: scale(1.2);
+    }
+    .faq {
+      background-color: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .faq h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    .faq h3 {
+      cursor: pointer;
+      font-size: 18px;
+      margin: 10px 0;
+      color: #0077cc;
+    }
+    .faq p {
+      display: none;
+      margin-top: 5px;
+      color: #333;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes floatCard {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div>
+      <h2>Menü</h2>
+      <a href="#vip">VIP Siteler</a>
+      <a href="#sponsor">Sponsorluklar</a>
+      <a href="#oduller">Ödüller</a>
+      <a href="#sss">SSS</a>
+    </div>
+    <div class="social-links">
+      <a href="https://t.me/sizinlink" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://instagram.com/sizinlink" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+
+  <div class="content">
+    <section id="vip" class="vip-section">
+      <h2>VIP Siteler</h2>
+      <div class="vip-sites">
+        <div class="vip-card">
+          <img src="https://via.placeholder.com/100x100?text=VIP1" alt="VIP 1">
+          <h3>StarBahis</h3>
+          <p>Yüksek oranlar ve hızlı ödeme garantisi</p>
+        </div>
+        <div class="vip-card">
+          <img src="https://via.placeholder.com/100x100?text=VIP2" alt="VIP 2">
+          <h3>LuckyBet</h3>
+          <p>Günlük 500₺ bonus, 7/24 destek</p>
+        </div>
+        <div class="vip-card">
+          <img src="https://via.placeholder.com/100x100?text=VIP3" alt="VIP 3">
+          <h3>JetKazanç</h3>
+          <p>5 dakikada çekim, VIP oyunculara özel kampanyalar</p>
+        </div>
+        <div class="vip-card">
+          <img src="https://via.placeholder.com/100x100?text=VIP4" alt="VIP 4">
+          <h3>GoldenBahis</h3>
+          <p>Canlı destek ve sadakat sistemi</p>
+        </div>
+        <div class="vip-card">
+          <img src="https://via.placeholder.com/100x100?text=VIP5" alt="VIP 5">
+          <h3>MegaOran</h3>
+          <p>En yüksek oranlar burada!</p>
+        </div>
+        <div class="vip-card">
+          <img src="https://via.placeholder.com/100x100?text=VIP6" alt="VIP 6">
+          <h3>Parabahis</h3>
+          <p>Kayıpsız ödeme ve çekiliş fırsatları</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sponsor" class="vip-section">
+      <h2>Sponsorluklar</h2>
+      <p>Bizimle çalışan sponsor siteler: JetKazanç, StarBahis, LuckyBet.</p>
+    </section>
+
+    <section id="oduller" class="vip-section">
+      <h2>Ödüller</h2>
+      <p>Her ay düzenli çekilişlerle 10.000₺ değerinde bonus dağıtımı yapılmaktadır.</p>
+    </section>
+
+    <section id="sss" class="faq">
+      <h2>Sıkça Sorulan Sorular</h2>
+      <h3 onclick="toggleFAQ(this)">Bu site güvenilir mi?</h3>
+      <p>Evet, tüm partner sitelerimiz lisanslı ve ödeme geçmişi güçlüdür.</p>
+      <h3 onclick="toggleFAQ(this)">Çekilişlere nasıl katılırım?</h3>
+      <p>Instagram veya Telegram kanalımızı takip ederek katılabilirsiniz.</p>
+      <h3 onclick="toggleFAQ(this)">Ödeme ne kadar sürede gelir?</h3>
+      <p>Genellikle 5-15 dakika içerisinde hesabınıza geçer.</p>
+    </section>
+  </div>
+
+  <script>
+    function toggleFAQ(el) {
+      const p = el.nextElementSibling;
+      p.style.display = p.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+</html>
