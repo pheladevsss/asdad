@@ -1,38 +1,17 @@
-HTTrack3.49-2+htsswf+htsjava launched on Sat, 10 May 2025 20:14:38 at https://docy.farmui.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
-(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://docy.farmui.com/ -O1 "C:\Users\pheldevbaba\Desktop\websiteler\5" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 10 May 2025 20:33:59 at https://space-hole.vercel.app/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Pnxs2u1%s%u%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "tr, en, *" https://space-hole.vercel.app/ -O1 "C:\Users\pheldevbaba\Desktop\websiteler\asdad" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
 
 Information, Warnings and Errors reported for this mirror:
 note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-20:15:11	Error: 	"Not Found" (404) at link https://docy.farmui.com/about (from https://docy.farmui.com/)
-20:15:12	Error: 	"Not Found" (404) at link https://docy.farmui.com/pricing (from https://docy.farmui.com/)
-20:15:28	Error: 	"Payment Required" (402) at link https://docy.farmui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabstract-background.807725df.png&w=3840&q=75 (from https://docy.farmui.com/)
-20:15:30	Error: 	"Not Found" (404) at link https://docy.farmui.com/AdamT (from https://docy.farmui.com/)
-20:15:30	Error: 	"Not Found" (404) at link https://docy.farmui.com/%22data:image/svg+xml,%3Csvg%20width='15'%20height='15'%20viewBox='0%200%2015%2015'%20xmlns='http:/www.w3.org/2000/svg'%3E%3Cg%20fill='%233f3f46'%20fill-opacity='0.4'%20fill-rule='evenodd'%3E%3Ccircle%20cx='1.2'%20cy='1.2'%20r='1.2'/%3E%3C/g%3E%3C/svg%3E%22 (from https://docy.farmui.com/)
-20:15:30	Error: 	"Bad Request" (400) at link https://resend.com/_next/image?url=%2Fstatic%2Fposts%2Fwebhooks.jpg (from https://docy.farmui.com/)
-20:15:30	Error: 	"Bad Request" (400) at link https://resend.com/_next/image?url=%2Fstatic%2Fposts%2Fmulti-region.jpg (from https://docy.farmui.com/changelog)
-20:15:30	Error: 	"Bad Request" (400) at link https://resend.com/_next/image?url=%2Fstatic%2Fposts%2Fsmtp.jpg (from https://docy.farmui.com/changelog)
-20:15:45	Error: 	"Not Found" (404) at link https://docy.farmui.com/sdks (from https://docy.farmui.com/docs/quickstart)
-20:15:45	Error: 	"Not Found" (404) at link https://docy.farmui.com/conversations (from https://docy.farmui.com/docs/quickstart)
-20:15:45	Error: 	"Not Found" (404) at link https://docy.farmui.com/errors (from https://docy.farmui.com/docs/quickstart)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: Bilinen böyle bir ana bilgisayar yok. ) at link https://assets.docy.chat/avatars/kevin.jpg (from https://docy.farmui.com/docs/webhooks)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/frank.jpg (from https://docy.farmui.com/docs/contacts)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/buzzboy.jpg (from https://docy.farmui.com/docs/messages)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/linnie.jpg (from https://docy.farmui.com/docs/messages)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/plazahotel.jpg (from https://docy.farmui.com/docs/groups)
-20:15:45	Error: 	"Not Found" (404) at link https://docy.farmui.com/docs/Invoice_room_service__Plaza_Hotel_updated.pdf (from https://docy.farmui.com/docs/attachments)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/kevin.jpg (from https://docy.farmui.com/docs/webhooks)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/frank.jpg (from https://docy.farmui.com/docs/contacts)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/buzzboy.jpg (from https://docy.farmui.com/docs/messages)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/linnie.jpg (from https://docy.farmui.com/docs/messages)
-20:15:45	Warning: 	Retry after error -5 (Unable to get server's address: unknown error) at link https://assets.docy.chat/avatars/plazahotel.jpg (from https://docy.farmui.com/docs/groups)
-20:15:45	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://assets.docy.chat/avatars/kevin.jpg (from https://docy.farmui.com/docs/webhooks)
-20:15:45	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://assets.docy.chat/avatars/frank.jpg (from https://docy.farmui.com/docs/contacts)
-20:15:45	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://assets.docy.chat/avatars/buzzboy.jpg (from https://docy.farmui.com/docs/messages)
-20:15:45	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://assets.docy.chat/avatars/linnie.jpg (from https://docy.farmui.com/docs/messages)
-20:15:45	Error: 	"Unable to get server's address: unknown error" (-5) after 2 retries at link https://assets.docy.chat/avatars/plazahotel.jpg (from https://docy.farmui.com/docs/groups)
+20:34:19	Error: 	"Not Found" (404) at link https://tailwindcss.com/_next/static/media/docs@30.8b9a76a2.avif (from https://space-hole.vercel.app/)
+20:34:20	Error: 	"Not Found" (404) at link https://pipe.com/_next/image?url=%2Fassets%2Fimg%2Fhero-left.png&w=384&q=75 (from https://space-hole.vercel.app/)
+20:34:30	Error: 	"Not Found" (404) at link https://space-hole.vercel.app/pricing (from https://space-hole.vercel.app/)
+20:34:30	Error: 	"Not Found" (404) at link https://space-hole.vercel.app/blog (from https://space-hole.vercel.app/)
+20:34:30	Error: 	"Not Found" (404) at link https://space-hole.vercel.app/company (from https://space-hole.vercel.app/)
+20:34:30	Error: 	"Bad Request" (400) at link https://pipe.com/_next/image?url=%2Fassets%2Fimg%2Fhero-left.png (from https://space-hole.vercel.app/)
 
-HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 7 seconds : 93 links scanned, 64 files written (5928565 bytes overall) [1192928 bytes received at 17804 bytes/sec], 6025229 bytes transferred using HTTP compression in 56 files, ratio 18%
-(17 errors, 10 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 31 seconds : 42 links scanned, 33 files written (6504646 bytes overall) [4300500 bytes received at 138725 bytes/sec], 5919788 bytes transferred using HTTP compression in 23 files, ratio 60%, 1.0 requests per connection
+(6 errors, 0 warnings, 0 messages)
